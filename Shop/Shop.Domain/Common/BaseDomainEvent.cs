@@ -1,5 +1,4 @@
 ﻿using MediatR;
-
 namespace Shop.Domain.Common
 {
     public class BaseDomainEvent:INotification
