@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Shop.Domain.Common.Exeptions
 {
-    public class InvalidDomainDateException
+    public class InvalidDomainDateException:Exception
     {
+        public InvalidDomainDateException(string message):base(message) { }
+       
     }
 }
