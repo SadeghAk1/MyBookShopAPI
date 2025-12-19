@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Shop.Domain.Common.Exeptions
 {
-    public class BaseDomainException:Exception
+    public class SlugIsDuplicatedExeption:BaseDomainException
     {
-        public BaseDomainException():base("اسلاگ تکراری است")
+        public SlugIsDuplicatedExeption()
         {
                 
         }
-        public BaseDomainException(string message):base(message)
+        public SlugIsDuplicatedExeption(string message):base(message) 
         {
-
+                
         }
     }
 }
