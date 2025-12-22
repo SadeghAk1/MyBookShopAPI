@@ -83,7 +83,7 @@ namespace Shop.Domain.Products
             NullOrEmptyDomainDataException.CheckString(slug, nameof(slug));
             if (slug != Slug)
             {
-                if (productDomainService.IsSlugExist(slug))
+                if (productDomainService.IsSlugExist(slug.ToSlug()))
                     throw new SlugIsDuplicatedExeption();
             }
 
