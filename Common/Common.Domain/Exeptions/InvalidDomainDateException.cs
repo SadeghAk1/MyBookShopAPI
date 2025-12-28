@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shop.Domain.Common.Exeptions
+namespace Common.Domain.Exeptions
 {
     public class InvalidDomainDateException:Exception
     {

@@ -1,4 +1,4 @@
-﻿using Shop.Domain.Common;
+﻿using Common.Domain;
 
 namespace Shop.Domain.Users.Entities;
 

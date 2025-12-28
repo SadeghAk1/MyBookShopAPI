@@ -10,13 +10,4 @@
     <PackageReference Include="MediatR" Version="10.0.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Common\" />
-    <Folder Include="Orders\Events\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\Common\Common.Domain\Common.Domain.csproj" />
-  </ItemGroup>
-
 </Project>

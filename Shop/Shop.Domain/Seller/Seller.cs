@@ -1,5 +1,5 @@
-﻿using Shop.Domain.Common;
-using Shop.Domain.Common.Exeptions;
+﻿using Common.Domain;
+using Common.Domain.Exeptions;
 using Shop.Domain.Seller.Enums;
 using System;
 namespace Shop.Domain.Seller

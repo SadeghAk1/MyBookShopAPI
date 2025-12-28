@@ -1,4 +1,4 @@
-﻿using Shop.Domain.Common;
+﻿using Common.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;

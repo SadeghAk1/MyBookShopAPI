@@ -1,6 +1,6 @@
-﻿using Shop.Domain.Common;
-using Shop.Domain.Common.Exeptions;
-using Shop.Domain.Common.Utilities;
+﻿using Common.Domain;
+using Common.Domain.Exeptions;
+using Common.Domain.Utilities;
 using Shop.Domain.Products.Services;
 using Shop.Domain.Products.ValueObjects;
 using System;

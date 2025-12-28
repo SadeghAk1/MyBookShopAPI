@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shop.Domain.Common
+namespace Common.Domain
 {
     public class BaseValueObject
     {

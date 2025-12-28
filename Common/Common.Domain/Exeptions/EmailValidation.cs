@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Shop.Domain.Common.Exeptions;
+namespace Common.Domain.Exeptions;
 
 public static class EmailValidation
 {

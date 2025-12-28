@@ -1,4 +1,4 @@
-﻿using Shop.Domain.Common;
+﻿using Common.Domain;
 using Shop.Domain.Orders.Enums;
 using Shop.Domain.Orders.ValueObjects;
 using System.Linq;

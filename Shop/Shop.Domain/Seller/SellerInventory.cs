@@ -1,5 +1,5 @@
-﻿using Shop.Domain.Common;
-using Shop.Domain.Common.Exeptions;
+﻿using Common.Domain;
+using Common.Domain.Exeptions;
 namespace Shop.Domain.Seller
 {
     public class SellerInventory:BaseEntity

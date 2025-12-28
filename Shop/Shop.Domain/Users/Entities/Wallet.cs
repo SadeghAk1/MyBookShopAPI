@@ -1,4 +1,4 @@
-﻿using Shop.Domain.Common;
+﻿using Common.Domain;
 using Shop.Domain.Users.Enums;
 
 

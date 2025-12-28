@@ -1,8 +1,7 @@
-﻿
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 
-namespace Shop.Domain.Common.Exeptions
+namespace Common.Domain.Exeptions
 {
     public static class  IranianNationalIdChecker
     {
@@ -38,7 +37,7 @@ namespace Shop.Domain.Common.Exeptions
             sum = sum % 11;
 
             // بررسی کنترل رقم
-            return (sum < 2 && lastNumber == sum) || (sum >= 2 && lastNumber == 11 - sum);
+            return sum < 2 && lastNumber == sum || sum >= 2 && lastNumber == 11 - sum;
         }
     }
 
