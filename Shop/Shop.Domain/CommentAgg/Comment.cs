@@ -1,5 +1,6 @@
 ﻿using Common.Domain;
 using Common.Domain.Exceptions;
+using Shop.Domain.CommentAgg.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,10 +42,5 @@ namespace Shop.Domain.CommentAgg
         }
     }
 
-    public enum CommentStatus
-    {
-        Pending,
-        Accepted,
-        Rejected
-    }
+   
 }

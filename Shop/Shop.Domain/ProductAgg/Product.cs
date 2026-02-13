@@ -3,11 +3,6 @@ using Common.Domain.Exceptions;
 using Common.Domain.Utils;
 using Common.Domain.ValueObjects;
 using Shop.Domain.ProductAgg.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Shop.Domain.ProductAgg
 {

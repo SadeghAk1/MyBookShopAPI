@@ -44,6 +44,7 @@ namespace Shop.Domain.CategoryAgg
 
         public void AddChild(string title, string slug, SeoData seoData, ICategoryDomainService service)
         {
+            Guard(Title, slug, service);
             Childs.Add(new Category(title, slug, seoData, service)
             {
                 ParentId = Id
